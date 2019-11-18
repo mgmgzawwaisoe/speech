@@ -121,13 +121,13 @@ public class PocketSphinxActivity extends Activity implements
                     bluetooth.send(String.valueOf(0b110111),false); // night
                 }
                 else if(hour<8){
-                    bluetooth.send(String.valueOf(0b110111),false); // morning
+                    bluetooth.send(String.valueOf(0b110100),false); // morning
                 }
                 else if(hour<14){
-                    bluetooth.send(String.valueOf(0b110111),false); // moon
+                    bluetooth.send(String.valueOf(0b110101),false); // afternoon
                 }
                 else{
-                    bluetooth.send(String.valueOf(0b110111),false); // evening
+                    bluetooth.send(String.valueOf(0b110110),false); // evening
                 }
                 Toast.makeText(getApplicationContext(),"successfully connected",Toast.LENGTH_SHORT).show();
 

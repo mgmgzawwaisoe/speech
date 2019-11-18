@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context="edu.cmu.pocketsphinx.demo.MainActivity">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="171dp" />
 </android.support.constraint.ConstraintLayout>
