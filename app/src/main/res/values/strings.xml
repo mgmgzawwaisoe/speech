@@ -9,4 +9,6 @@
     <string name="forecast_caption">To try recognition of a weather forecast like \"sunny spells on Wednesday\".</string>
     <string name="phone_caption">To try phonetic recognition say Other.</string>
     <string name="other_caption">Say Other.</string>
+    <string name="GOT_IT">GOT IT</string>
+    <string name="SKIP">SKIP</string>
 </resources>
